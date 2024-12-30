@@ -1,0 +1,19 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Log {
+  id                Int      @id @default(autoincrement())
+  ticketNumber      String
+  errorCode         String
+  errorMessage      String
+  timestamp         DateTime @default(now())
+  deviceInfo        String
+  errorTitle        String
+  userDescription   String // This will be the single description field
+}

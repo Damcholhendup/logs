@@ -8,12 +8,12 @@ generator client {
 }
 
 model Log {
-  id                Int      @id @default(autoincrement())
-  ticketNumber      String
-  errorCode         String
-  errorMessage      String
-  timestamp         DateTime @default(now())
-  deviceInfo        String
-  errorTitle        String
-  userDescription   String // This will be the single description field
+  id              Int      @id @default(autoincrement())
+  ticketNumber    String
+  errorCode       Int // Change this to Int
+  errorMessage    String
+  timestamp       DateTime @default(now())
+  deviceInfo      String
+  errorTitle      String
+  userDescription String
 }

@@ -3,7 +3,7 @@ import { IsString, IsOptional, IsDateString } from 'class-validator';
 
 export class CreateLogDto {
   @IsString()
-  errorCode: string;
+  errorCode: number;
 
   @IsString()
   errorMessage: string;

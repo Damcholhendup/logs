@@ -26,4 +26,8 @@ export class LogsController {
   async delete(@Param('ticketNumber') ticketNumber: string) {
     return this.logsService.deleteByTicketNumber(ticketNumber);
   }
+
+
+
+
 }

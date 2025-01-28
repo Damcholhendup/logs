@@ -1,8 +1,9 @@
 export declare class CreateLogDto {
-    errorCode: number;
+    errorCode?: number;
     errorMessage: string;
     timestamp: string;
     deviceInfo: string;
     errorTitle: string;
     userDescription: string;
+    stackTraceReport?: string;
 }

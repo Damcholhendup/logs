@@ -13,12 +13,25 @@ exports.LogsService = void 0;
 const common_1 = require("@nestjs/common");
 const prisma_service_1 = require("../prisma/prisma.service");
 const uuid_1 = require("uuid");
+const fs = require("fs");
+const path = require("path");
 let LogsService = class LogsService {
     constructor(prisma) {
         this.prisma = prisma;
+        this.uploadDir = './uploads/stacktraces';
+        if (!fs.existsSync(this.uploadDir)) {
+            fs.mkdirSync(this.uploadDir, { recursive: true });
+        }
+    }
+    async saveFile(file) {
+        const fileName = `${(0, uuid_1.v4)()}-${file.originalname}`;
+        const filePath = path.join(this.uploadDir, fileName);
+        fs.writeFileSync(filePath, file.buffer);
+        console.log(`File saved at: ${filePath}`);
+        return filePath;
     }
     async create(createLogDto) {
-        const { errorCode, errorMessage, timestamp, deviceInfo, errorTitle, userDescription } = createLogDto;
+        const { errorCode, errorMessage, timestamp, deviceInfo, errorTitle, userDescription, stackTraceReport } = createLogDto;
         const datePrefix = new Date().toISOString().slice(0, 10).replace(/-/g, '');
         const uniqueSuffix = (0, uuid_1.v4)().substring(0, 6).toUpperCase();
         const ticketNumber = `${datePrefix}-${uniqueSuffix}`;
@@ -31,17 +44,16 @@ let LogsService = class LogsService {
                 deviceInfo,
                 errorTitle,
                 userDescription,
+                stackTraceReport,
             },
         });
-        return {
-            ticketNumber,
-        };
+        return { ticketNumber };
     }
     async findAll() {
         return this.prisma.log.findMany();
     }
     async findByTicketNumber(ticketNumber) {
-        return this.prisma.log.findMany({
+        return this.prisma.log.findFirst({
             where: { ticketNumber },
         });
     }
@@ -49,6 +61,16 @@ let LogsService = class LogsService {
         return this.prisma.log.deleteMany({
             where: { ticketNumber },
         });
+    }
+    async getStackTraceReport(ticketNumber) {
+        const log = await this.prisma.log.findUnique({
+            where: { ticketNumber },
+            select: { stackTraceReport: true },
+        });
+        if (!log || !log.stackTraceReport) {
+            throw new Error('Stack trace not found for the provided ticket number');
+        }
+        return log.stackTraceReport;
     }
 };
 exports.LogsService = LogsService;

@@ -15,7 +15,8 @@ class CreateLogDto {
 }
 exports.CreateLogDto = CreateLogDto;
 __decorate([
-    (0, class_validator_1.IsString)(),
+    (0, class_validator_1.IsOptional)(),
+    (0, class_validator_1.IsInt)(),
     __metadata("design:type", Number)
 ], CreateLogDto.prototype, "errorCode", void 0);
 __decorate([
@@ -38,4 +39,9 @@ __decorate([
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
 ], CreateLogDto.prototype, "userDescription", void 0);
+__decorate([
+    (0, class_validator_1.IsOptional)(),
+    (0, class_validator_1.IsString)(),
+    __metadata("design:type", String)
+], CreateLogDto.prototype, "stackTraceReport", void 0);
 //# sourceMappingURL=create-log.dto.js.map

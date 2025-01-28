@@ -1,0 +1,211 @@
+[2025-01-28T03:56:16.947Z] info | 9:56:16 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:19.517Z] info | 9:56:19 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:19.873Z] info | 9:56:19 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:20.052Z] info | 9:56:20 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:39.760Z] info | 9:56:39 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:57:23.799Z] warn | 9:57:23 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T03:57:23.802Z] info | 9:57:23 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T03:57:24.438Z] info | 9:57:24 AM | INFO : Logs fetched successfully 
+[2025-01-28T03:59:09.396Z] info | 9:59:09 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:59:45.317Z] warn | 9:59:45 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T03:59:45.320Z] info | 9:59:45 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T03:59:45.896Z] info | 9:59:45 AM | INFO : Logs fetched successfully 
+[2025-01-28T05:12:54.430Z] info | 11:12:54 AM | INFO : Full name validation failed: Full name is empty. 
+[2025-01-28T05:12:54.434Z] info | 11:12:54 AM | INFO : Gender validation failed: Gender is not selected. 
+[2025-01-28T05:12:54.438Z] info | 11:12:54 AM | INFO : ID Number validation failed: ID number is empty. 
+[2025-01-28T05:13:10.118Z] info | 11:13:10 AM | INFO : Full name validation passed: Full name is not empty. 
+[2025-01-28T05:13:10.121Z] info | 11:13:10 AM | INFO : Gender validation passed: Gender is selected. 
+[2025-01-28T05:13:10.125Z] info | 11:13:10 AM | INFO : ID Number validation passed: ID number is provided. 
+[2025-01-28T05:13:43.661Z] warn | 11:13:43 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T05:13:43.663Z] info | 11:13:43 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T05:13:44.244Z] info | 11:13:44 AM | INFO : Logs fetched successfully 
+[2025-01-28T05:21:08.563Z] info | 11:21:08 AM | INFO : Checking version. Current version: 3.0.5, Latest version: 3.0.5 
+[2025-01-28T05:21:33.240Z] info | 11:21:33 AM | INFO : Checking version. Current version: 3.0.5, Latest version: 3.0.5 
+[2025-01-28T05:21:44.572Z] info | 11:21:44 AM | INFO : Checking version. Current version: 3.0.5, Latest version: 3.0.5 
+[2025-01-28T05:21:47.277Z] info | 11:21:47 AM | INFO : Full name validation failed: Full name is empty. 
+[2025-01-28T05:21:47.282Z] info | 11:21:47 AM | INFO : Gender validation failed: Gender is not selected. 
+[2025-01-28T05:21:47.298Z] warn | 11:21:47 AM | WARN : Date of Birth validation failed. Invalid date:  does not match the format DD/MM/YYYY. 
+[2025-01-28T05:21:47.302Z] info | 11:21:47 AM | INFO : BhutaneseType validation failed: BhutaneseType is not selected. 
+[2025-01-28T05:21:47.306Z] info | 11:21:47 AM | INFO : ID Number validation failed: ID number is empty. 
+[2025-01-28T05:21:47.310Z] info | 11:21:47 AM | INFO : IdType validation failed: IdType is not selected. 
+[2025-01-28T05:21:55.904Z] info | 11:21:55 AM | INFO : Full name validation passed: Full name is not empty. 
+[2025-01-28T05:21:55.909Z] info | 11:21:55 AM | INFO : Gender validation passed: Gender is selected. 
+[2025-01-28T05:21:55.913Z] info | 11:21:55 AM | INFO : Date of Birth validation passed for the format DD/MM/YYYY. 
+[2025-01-28T05:21:55.918Z] info | 11:21:55 AM | INFO : BhutaneseType validation passed: BhutaneseType is selected. 
+[2025-01-28T05:21:55.921Z] info | 11:21:55 AM | INFO : ID Number validation passed: ID number is provided. 
+[2025-01-28T05:21:55.924Z] info | 11:21:55 AM | INFO : IdType validation passed: IdType is selected. 
+[2025-01-28T05:21:58.444Z] info | 11:21:58 AM | INFO : Dezongkhag validation failed: Dezongkhag is not selected. 
+[2025-01-28T05:21:58.448Z] info | 11:21:58 AM | INFO : Gewog validation failed: Gewog is not selected. 
+[2025-01-28T05:22:27.338Z] warn | 11:22:27 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T05:22:27.341Z] info | 11:22:27 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T05:55:54.164Z] info | 11:55:54 AM | INFO : Full name validation passed: Full name is not empty. 
+[2025-01-28T05:55:54.168Z] info | 11:55:54 AM | INFO : Gender validation passed: Gender is selected. 
+[2025-01-28T05:55:54.171Z] info | 11:55:54 AM | INFO : Date of Birth validation passed for the format DD/MM/YYYY. 
+[2025-01-28T05:55:54.174Z] info | 11:55:54 AM | INFO : BhutaneseType validation passed: BhutaneseType is selected. 
+[2025-01-28T05:55:54.177Z] info | 11:55:54 AM | INFO : ID Number validation passed: ID number is provided. 
+[2025-01-28T05:55:54.180Z] info | 11:55:54 AM | INFO : IdType validation passed: IdType is selected. 
+[2025-01-28T05:55:59.802Z] info | 11:55:59 AM | INFO : recordValidate API called successfully with status code 200. 
+[2025-01-28T05:55:59.809Z] info | 11:55:59 AM | INFO : Successfully retrieved CID_KEY from secure storage. 
+[2025-01-28T05:56:00.250Z] info | 11:56:00 AM | INFO : Navigating to onboardingSuccess screen. 
+[2025-01-28T05:57:51.749Z] info | 11:57:51 AM | INFO : Last Backup Success: null 
+[2025-01-28T05:57:51.752Z] info | 11:57:51 AM | INFO : Last Stored Backup Time: null 
+[2025-01-28T05:58:33.221Z] info | 11:58:33 AM | INFO : Last Backup Success: null 
+[2025-01-28T05:58:33.224Z] info | 11:58:33 AM | INFO : Last Stored Backup Time: null 
+[2025-01-28T05:58:41.240Z] info | 11:58:41 AM | INFO : Last Backup Success: null 
+[2025-01-28T05:58:41.242Z] info | 11:58:41 AM | INFO : Last Stored Backup Time: null 
+[2025-01-28T05:58:43.482Z] info | 11:58:43 AM | INFO : Last Backup Success: null 
+[2025-01-28T05:58:43.485Z] info | 11:58:43 AM | INFO : Last Stored Backup Time: null 
+[2025-01-28T05:58:44.853Z] error | 11:58:44 AM | ERROR : Error in getFoundationalProofRequestUrl: error from verifyuser api 
+[2025-01-28T05:58:44.856Z] error | 11:58:44 AM | ERROR : Stack Trace: Error: error from verifyuser api
+    at ?anon_0_ (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:351:26)
+    at next (native)
+    at asyncGeneratorStep (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28739:26)
+    at _next (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28758:29)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28763:14)
+    at tryCallTwo (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:61:9)
+    at doResolve (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:216:25)
+    at Promise (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:82:14)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28755:25)
+    at apply (native)
+    at getFoundationalProofRequestUrl (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:393:27)
+    at ?anon_0_ (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:399:67)
+    at next (native)
+    at asyncGeneratorStep (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28739:26)
+    at _next (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28758:29)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28763:14)
+    at tryCallTwo (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:61:9)
+    at doResolve (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:216:25)
+    at Promise (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:82:14)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28755:25)
+    at apply (native)
+    at onBackupPress (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:405:27)
+    at _performTransitionSideEffects (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67793:22)
+    at _receiveSignal (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67743:45)
+    at onResponderRelease (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67586:34)
+    at apply (native)
+    at invokeGuardedCallbackProd (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84267:21)
+    at apply (native)
+    at invokeGuardedCallback (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84443:42)
+    at apply (native)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84457:36)
+    at executeDispatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84534:48)
+    at executeDispatchesInOrder (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84556:26)
+    at executeDispatchesAndRelease (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86327:35)
+    at executeDispatchesAndReleaseTopLevel (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86334:43)
+    at forEach (native)
+    at forEachAccumulated (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:85148:22)
+    at runEventsInBatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86347:27)
+    at runExtractedPluginEventsInBatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86457:25)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86428:42)
+    at batchedUpdates$1 (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:99869:20)
+    at batchedUpdates (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86303:36)
+    at _receiveRootNodeIDEvent (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86427:23)
+    at receiveTouches (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86516:34)
+    at apply (native)
+    at __callFunction (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3804:38)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3520:31)
+    at __guard (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3737:15)
+    at callFunctionReturnFlushedQueue (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3519:21) 
+[2025-01-28T05:58:46.625Z] error | 11:58:46 AM | ERROR : Error in getFoundationalProofRequestUrl: error from verifyuser api 
+[2025-01-28T05:58:46.629Z] error | 11:58:46 AM | ERROR : Stack Trace: Error: error from verifyuser api
+    at ?anon_0_ (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:351:26)
+    at next (native)
+    at asyncGeneratorStep (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28739:26)
+    at _next (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28758:29)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28763:14)
+    at tryCallTwo (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:61:9)
+    at doResolve (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:216:25)
+    at Promise (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:82:14)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28755:25)
+    at apply (native)
+    at getFoundationalProofRequestUrl (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:393:27)
+    at ?anon_0_ (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:399:67)
+    at next (native)
+    at asyncGeneratorStep (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28739:26)
+    at _next (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28758:29)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28763:14)
+    at tryCallTwo (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:61:9)
+    at doResolve (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:216:25)
+    at Promise (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:82:14)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28755:25)
+    at apply (native)
+    at onBackupPress (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:405:27)
+    at _performTransitionSideEffects (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67793:22)
+    at _receiveSignal (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67743:45)
+    at onResponderRelease (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67586:34)
+    at apply (native)
+    at invokeGuardedCallbackProd (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84267:21)
+    at apply (native)
+    at invokeGuardedCallback (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84443:42)
+    at apply (native)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84457:36)
+    at executeDispatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84534:48)
+    at executeDispatchesInOrder (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84556:26)
+    at executeDispatchesAndRelease (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86327:35)
+    at executeDispatchesAndReleaseTopLevel (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86334:43)
+    at forEach (native)
+    at forEachAccumulated (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:85148:22)
+    at runEventsInBatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86347:27)
+    at runExtractedPluginEventsInBatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86457:25)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86428:42)
+    at batchedUpdates$1 (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:99869:20)
+    at batchedUpdates (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86303:36)
+    at _receiveRootNodeIDEvent (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86427:23)
+    at receiveTouches (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86516:34)
+    at apply (native)
+    at __callFunction (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3804:38)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3520:31)
+    at __guard (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3737:15)
+    at callFunctionReturnFlushedQueue (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3519:21) 
+[2025-01-28T05:58:47.615Z] error | 11:58:47 AM | ERROR : Error in getFoundationalProofRequestUrl: error from verifyuser api 
+[2025-01-28T05:58:47.619Z] error | 11:58:47 AM | ERROR : Stack Trace: Error: error from verifyuser api
+    at ?anon_0_ (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:351:26)
+    at next (native)
+    at asyncGeneratorStep (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28739:26)
+    at _next (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28758:29)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28763:14)
+    at tryCallTwo (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:61:9)
+    at doResolve (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:216:25)
+    at Promise (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:82:14)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28755:25)
+    at apply (native)
+    at getFoundationalProofRequestUrl (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:393:27)
+    at ?anon_0_ (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:399:67)
+    at next (native)
+    at asyncGeneratorStep (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28739:26)
+    at _next (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28758:29)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28763:14)
+    at tryCallTwo (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:61:9)
+    at doResolve (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:216:25)
+    at Promise (/root/react-native/packages/react-native/ReactAndroid/hermes-engine/.cxx/Release/1h2r6r3g/arm64-v8a/lib/InternalBytecode/InternalBytecode.js:82:14)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:28755:25)
+    at apply (native)
+    at onBackupPress (http://localhost:8081/src\screens\StartBackup.bundle//&platform=android&lazy=true&app=com.bhutanndi&modulesOnly=true&dev=true&minify=false&runModule=true&shallow=true:405:27)
+    at _performTransitionSideEffects (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67793:22)
+    at _receiveSignal (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67743:45)
+    at onResponderRelease (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:67586:34)
+    at apply (native)
+    at invokeGuardedCallbackProd (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84267:21)
+    at apply (native)
+    at invokeGuardedCallback (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84443:42)
+    at apply (native)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84457:36)
+    at executeDispatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84534:48)
+    at executeDispatchesInOrder (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:84556:26)
+    at executeDispatchesAndRelease (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86327:35)
+    at executeDispatchesAndReleaseTopLevel (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86334:43)
+    at forEach (native)
+    at forEachAccumulated (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:85148:22)
+    at runEventsInBatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86347:27)
+    at runExtractedPluginEventsInBatch (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86457:25)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86428:42)
+    at batchedUpdates$1 (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:99869:20)
+    at batchedUpdates (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86303:36)
+    at _receiveRootNodeIDEvent (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86427:23)
+    at receiveTouches (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:86516:34)
+    at apply (native)
+    at __callFunction (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3804:38)
+    at anonymous (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3520:31)
+    at __guard (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3737:15)
+    at callFunctionReturnFlushedQueue (http://localhost:8081/index.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.bhutanndi&modulesOnly=false&runModule=true:3519:21) 
+[2025-01-28T05:58:51.170Z] info | 11:58:51 AM | INFO : Logs fetched successfully 

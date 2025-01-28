@@ -1,0 +1,40 @@
+[2025-01-28T03:56:16.947Z] info | 9:56:16 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:19.517Z] info | 9:56:19 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:19.873Z] info | 9:56:19 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:20.052Z] info | 9:56:20 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:56:39.760Z] info | 9:56:39 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:57:23.799Z] warn | 9:57:23 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T03:57:23.802Z] info | 9:57:23 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T03:57:24.438Z] info | 9:57:24 AM | INFO : Logs fetched successfully 
+[2025-01-28T03:59:09.396Z] info | 9:59:09 AM | INFO : Full name validation passed: Full name is empty. 
+[2025-01-28T03:59:45.317Z] warn | 9:59:45 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T03:59:45.320Z] info | 9:59:45 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T03:59:45.896Z] info | 9:59:45 AM | INFO : Logs fetched successfully 
+[2025-01-28T05:12:54.430Z] info | 11:12:54 AM | INFO : Full name validation failed: Full name is empty. 
+[2025-01-28T05:12:54.434Z] info | 11:12:54 AM | INFO : Gender validation failed: Gender is not selected. 
+[2025-01-28T05:12:54.438Z] info | 11:12:54 AM | INFO : ID Number validation failed: ID number is empty. 
+[2025-01-28T05:13:10.118Z] info | 11:13:10 AM | INFO : Full name validation passed: Full name is not empty. 
+[2025-01-28T05:13:10.121Z] info | 11:13:10 AM | INFO : Gender validation passed: Gender is selected. 
+[2025-01-28T05:13:10.125Z] info | 11:13:10 AM | INFO : ID Number validation passed: ID number is provided. 
+[2025-01-28T05:13:43.661Z] warn | 11:13:43 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T05:13:43.663Z] info | 11:13:43 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 
+[2025-01-28T05:13:44.244Z] info | 11:13:44 AM | INFO : Logs fetched successfully 
+[2025-01-28T05:21:08.563Z] info | 11:21:08 AM | INFO : Checking version. Current version: 3.0.5, Latest version: 3.0.5 
+[2025-01-28T05:21:33.240Z] info | 11:21:33 AM | INFO : Checking version. Current version: 3.0.5, Latest version: 3.0.5 
+[2025-01-28T05:21:44.572Z] info | 11:21:44 AM | INFO : Checking version. Current version: 3.0.5, Latest version: 3.0.5 
+[2025-01-28T05:21:47.277Z] info | 11:21:47 AM | INFO : Full name validation failed: Full name is empty. 
+[2025-01-28T05:21:47.282Z] info | 11:21:47 AM | INFO : Gender validation failed: Gender is not selected. 
+[2025-01-28T05:21:47.298Z] warn | 11:21:47 AM | WARN : Date of Birth validation failed. Invalid date:  does not match the format DD/MM/YYYY. 
+[2025-01-28T05:21:47.302Z] info | 11:21:47 AM | INFO : BhutaneseType validation failed: BhutaneseType is not selected. 
+[2025-01-28T05:21:47.306Z] info | 11:21:47 AM | INFO : ID Number validation failed: ID number is empty. 
+[2025-01-28T05:21:47.310Z] info | 11:21:47 AM | INFO : IdType validation failed: IdType is not selected. 
+[2025-01-28T05:21:55.904Z] info | 11:21:55 AM | INFO : Full name validation passed: Full name is not empty. 
+[2025-01-28T05:21:55.909Z] info | 11:21:55 AM | INFO : Gender validation passed: Gender is selected. 
+[2025-01-28T05:21:55.913Z] info | 11:21:55 AM | INFO : Date of Birth validation passed for the format DD/MM/YYYY. 
+[2025-01-28T05:21:55.918Z] info | 11:21:55 AM | INFO : BhutaneseType validation passed: BhutaneseType is selected. 
+[2025-01-28T05:21:55.921Z] info | 11:21:55 AM | INFO : ID Number validation passed: ID number is provided. 
+[2025-01-28T05:21:55.924Z] info | 11:21:55 AM | INFO : IdType validation passed: IdType is selected. 
+[2025-01-28T05:21:58.444Z] info | 11:21:58 AM | INFO : Dezongkhag validation failed: Dezongkhag is not selected. 
+[2025-01-28T05:21:58.448Z] info | 11:21:58 AM | INFO : Gewog validation failed: Gewog is not selected. 
+[2025-01-28T05:22:27.338Z] warn | 11:22:27 AM | WARN : Unexpected status code while calling recordValidate API: 404. 
+[2025-01-28T05:22:27.341Z] info | 11:22:27 AM | INFO : Navigating to onboardingError screen due to recordValidate API failure. 

@@ -1,30 +1,33 @@
 import { LogsService } from './logs.service';
-import { CreateLogDto } from './dto/create-log.dto';
+import { Response } from 'express';
 export declare class LogsController {
     private readonly logsService;
     constructor(logsService: LogsService);
-    create(createLogDto: CreateLogDto): Promise<{
+    create(body: any, file: Express.Multer.File): Promise<{
         ticketNumber: string;
     }>;
     findAll(): Promise<{
-        errorCode: number;
+        errorCode: number | null;
         errorMessage: string;
         timestamp: Date;
         deviceInfo: string;
         errorTitle: string;
         userDescription: string;
+        stackTraceReport: string | null;
         ticketNumber: string;
         id: number;
     }[]>;
     findByTicketNumber(ticketNumber: string): Promise<{
-        errorCode: number;
+        errorCode: number | null;
         errorMessage: string;
         timestamp: Date;
         deviceInfo: string;
         errorTitle: string;
         userDescription: string;
+        stackTraceReport: string | null;
         ticketNumber: string;
         id: number;
-    }[]>;
+    }>;
     delete(ticketNumber: string): Promise<import(".prisma/client").Prisma.BatchPayload>;
+    getStackTraceReport(ticketNumber: string, res: Response): Promise<void>;
 }

@@ -14,14 +14,36 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LogsController = void 0;
 const common_1 = require("@nestjs/common");
+const platform_express_1 = require("@nestjs/platform-express");
 const logs_service_1 = require("./logs.service");
-const create_log_dto_1 = require("./dto/create-log.dto");
+const path = require("path");
 let LogsController = class LogsController {
     constructor(logsService) {
         this.logsService = logsService;
     }
-    async create(createLogDto) {
-        return this.logsService.create(createLogDto);
+    async create(body, file) {
+        try {
+            console.log('Received body:', body);
+            console.log('Uploaded file:', file);
+            const dataString = body.data;
+            if (dataString) {
+                const parsedData = JSON.parse(dataString);
+                const filePath = file ? await this.logsService.saveFile(file) : undefined;
+                const sanitizedDto = {
+                    ...parsedData,
+                    stackTraceReport: filePath,
+                };
+                console.log('Sanitized DTO:', sanitizedDto);
+                return this.logsService.create(sanitizedDto);
+            }
+            else {
+                throw new Error('No "data" field in the multipart request');
+            }
+        }
+        catch (error) {
+            console.error('Error handling upload:', error.message);
+            throw error;
+        }
     }
     async findAll() {
         return this.logsService.findAll();
@@ -32,13 +54,24 @@ let LogsController = class LogsController {
     async delete(ticketNumber) {
         return this.logsService.deleteByTicketNumber(ticketNumber);
     }
+    async getStackTraceReport(ticketNumber, res) {
+        try {
+            const filePath = await this.logsService.getStackTraceReport(ticketNumber);
+            res.sendFile(filePath, { root: path.resolve('.') });
+        }
+        catch (error) {
+            res.status(404).send(error.message);
+        }
+    }
 };
 exports.LogsController = LogsController;
 __decorate([
     (0, common_1.Post)(),
+    (0, common_1.UseInterceptors)((0, platform_express_1.FileInterceptor)('stackTraceReport')),
     __param(0, (0, common_1.Body)()),
+    __param(1, (0, common_1.UploadedFile)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [create_log_dto_1.CreateLogDto]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", Promise)
 ], LogsController.prototype, "create", null);
 __decorate([
@@ -61,6 +94,14 @@ __decorate([
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
 ], LogsController.prototype, "delete", null);
+__decorate([
+    (0, common_1.Get)(':ticketNumber/stackTraceReport'),
+    __param(0, (0, common_1.Param)('ticketNumber')),
+    __param(1, (0, common_1.Res)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, Object]),
+    __metadata("design:returntype", Promise)
+], LogsController.prototype, "getStackTraceReport", null);
 exports.LogsController = LogsController = __decorate([
     (0, common_1.Controller)('logs'),
     __metadata("design:paramtypes", [logs_service_1.LogsService])

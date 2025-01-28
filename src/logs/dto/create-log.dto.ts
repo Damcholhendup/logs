@@ -1,9 +1,10 @@
 /* eslint-disable prettier/prettier */
-import { IsString, IsOptional, IsDateString } from 'class-validator';
+import { IsString, IsOptional, IsDateString, IsInt } from 'class-validator';
 
 export class CreateLogDto {
-  @IsString()
-  errorCode: number;
+  @IsOptional()
+  @IsInt()
+  errorCode?: number;
 
   @IsString()
   errorMessage: string;
@@ -18,5 +19,9 @@ export class CreateLogDto {
   errorTitle: string;
 
   @IsString()
-  userDescription: string; // Only one field now
+  userDescription: string;
+
+  @IsOptional()
+  @IsString() // Stores the file path or URL
+  stackTraceReport?: string;
 }
